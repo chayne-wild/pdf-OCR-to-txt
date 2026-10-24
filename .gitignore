@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Local test artifacts (prevent accidentally committing uploaded PDFs or OCR outputs)
+*.pdf
+*_ocr_*.txt
+result.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
